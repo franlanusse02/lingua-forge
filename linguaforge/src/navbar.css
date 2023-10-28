@@ -1,0 +1,45 @@
+/* MyComponent.css */
+.navbar {
+    width: 5rem; /* Adjust the width to your preference */
+    height: 100%; /* Make the navbar the full height of the viewport */
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #F5F5F5; /* Background color of the navbar */
+    color: black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column; /* Display the links vertically */
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+    justify-content: space-between;
+    overflow-y: auto;
+    align-items: center;
+
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: small;
+    vertical-align: center;
+    
+    
+  }
+  
+  .navbar a:hover {
+    background-color: #8a8a8a; /* Background color when hovering over links */
+  }
+
+  .navbar-button {
+    display: inline-flex; /* Make the SVG an inline-block element */
+    align-items: center; /* Vertically center the SVG within the line height of the text */
+    /* margin-right: 5px; Add margin between the SVG and text */
+    vertical-align: middle;
+    flex-direction: column;
+  }
+
+  .button-svg svg {
+    vertical-align: middle; /* Add this to the SVG element */
+  }
+  

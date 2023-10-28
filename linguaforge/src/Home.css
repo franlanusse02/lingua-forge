@@ -1,0 +1,10 @@
+.home {
+    margin-left: 7rem;
+}
+
+.cards-container {
+    display: flex;
+    gap: 1rem; /* Adjust the gap as needed */
+    justify-content: flex-start; /* Align items to the start of the container */
+}
+  
